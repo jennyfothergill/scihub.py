@@ -16,7 +16,6 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    zip_safe=False,
     entry_points = {
         'console_scripts': ['scihub=scihub.scihub:main']
         }

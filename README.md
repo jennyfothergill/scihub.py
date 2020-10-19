@@ -18,6 +18,7 @@ Setup
 -----
 ```
 pip install -r requirements.txt
+pip install .
 ```
 
 Usage
@@ -25,7 +26,7 @@ Usage
 You can interact with scihub.py from the commandline:
 
 ```
-usage: scihub.py [-h] [-d (DOI|PMID|URL)] [-f path] [-s query] [-sd query]
+usage: scihub [-h] [-d (DOI|PMID|URL)] [-f path] [-s query] [-sd query]
                  [-l N] [-o path] [-v]
 
 SciHub - To remove all barriers in the way of science.
